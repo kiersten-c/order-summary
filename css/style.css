@@ -1,3 +1,5 @@
+/* Global Styles */
+
 html {
     font-size: 16px;
     background: url('../images/pattern-background-mobile.svg') no-repeat center center fixed; 
@@ -35,11 +37,15 @@ main {
     align-items: center;
 }
 
+/*Hero Image*/
+
 header img {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+/*Order Summary*/
 
 .summary {
     text-align: center;
@@ -51,6 +57,9 @@ header img {
     color: #252e59;
     font-weight: 900;
 }
+
+/*Plan Section*/
+
 aside{
     width: 85%;
 }
@@ -63,7 +72,6 @@ aside .content-wrapper {
     background-color: #f8f9fe;
     padding: 0;
     margin: 0;
-    height: ;
     border-radius: 10px;
     width: 100%;
 }
@@ -95,6 +103,8 @@ aside a {
     font-weight: 700;
 }
 
+/*Payment Button*/
+
 section.payment-button {
     width: 85%;
 }
@@ -116,6 +126,8 @@ button:active {
     background-color: #766cf1;
 }
 
+/*Cancel Link*/
+
 .cancel {
     color: #8e95af;
     text-decoration: none;
@@ -130,9 +142,13 @@ button:active {
     margin-bottom: 30px;
 }
 
+/*Footer*/
+
 footer {
     margin: 30px;
 }
+
+/*Desktop Styles*/
 
 @media only screen and (min-width: 1200px) {
  html {
