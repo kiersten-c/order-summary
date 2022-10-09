@@ -1,0 +1,146 @@
+html {
+    font-size: 16px;
+    background: url('../images/pattern-background-mobile.svg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 90%;
+    margin-top: 50px;
+    max-width: 450px;
+}
+
+div.content-wrapper {
+    border-radius: 15px;
+    background-color: white;
+}
+
+p {
+    color: #7f86a3;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.summary {
+    text-align: center;
+    padding: 15px 30px;
+    width: 70%;
+}
+
+.summary h2 {
+    color: #252e59;
+    font-weight: 900;
+}
+aside{
+    width: 85%;
+}
+
+aside .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f8f9fe;
+    padding: 0;
+    margin: 0;
+    height: ;
+    border-radius: 10px;
+    width: 100%;
+}
+
+div.icon {
+    padding: 20px;
+}
+
+div.plan {
+    padding-left: 10px;
+    flex-grow: 1;
+}
+
+div.change {
+    padding: 20px;
+}
+
+div.change a:active {
+    text-decoration: none;
+    color: #9b95df;
+}
+
+aside p strong {
+    color: #11153b;
+}
+
+aside a {
+    color: #4331d5;
+    font-weight: 700;
+}
+
+section.payment-button {
+    width: 85%;
+}
+
+button {
+    background-color: #4331d5;
+    color: #fbffdd;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    margin: 30px 0;
+    box-shadow: 0px 20px 10px hsl(225, 100%, 94%);
+    width: 100%;
+    padding: 15px 0;
+}
+
+button:active {
+    background-color: #766cf1;
+}
+
+.cancel {
+    color: #8e95af;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.cancel:active {
+    color: #262e52;
+}
+
+.cancel-order {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 30px;
+}
+
+@media only screen and (min-width: 1200px) {
+ html {
+    background: url('../images/pattern-background-desktop.svg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+ }
+}
