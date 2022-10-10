@@ -89,7 +89,7 @@ div.change {
     padding: 20px;
 }
 
-div.change a:active {
+div.change a:hover {
     text-decoration: none;
     color: #9b95df;
 }
@@ -122,7 +122,7 @@ button {
     padding: 15px 0;
 }
 
-button:active {
+button:hover {
     background-color: #766cf1;
 }
 
@@ -134,7 +134,7 @@ button:active {
     font-weight: 900;
 }
 
-.cancel:active {
+.cancel:hover {
     color: #262e52;
 }
 
